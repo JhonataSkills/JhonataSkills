@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<defs>
+ <linearGradient id="code" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6f8cff"/><stop offset=".48" stop-color="#4bd9ff"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <path id="wingL" d="M590 142 C500 65 435 55 335 66 C370 82 394 100 405 124 C330 105 270 126 218 174 C277 157 317 166 352 195 C300 195 272 225 260 253 C333 221 400 224 462 257 C500 279 544 250 590 198"/>
+ <path id="wingR" d="M610 142 C700 65 765 55 865 66 C830 82 806 100 795 124 C870 105 930 126 982 174 C923 157 883 166 848 195 C900 195 928 225 940 253 C867 221 800 224 738 257 C700 279 656 250 610 198"/>
+ <path id="spine" d="M600 75 C566 104 573 134 600 158 C627 134 634 104 600 75 M600 158 C578 190 580 224 600 259 C620 224 622 190 600 158"/>
+</defs>
+<rect width="1200" height="330" rx="8" fill="#070a0f"/>
+<rect x="1" y="1" width="1198" height="328" rx="8" fill="none" stroke="#1b2838"/>
+<circle cx="22" cy="19" r="5" fill="#ff5f57"/><circle cx="40" cy="19" r="5" fill="#febc2e"/><circle cx="58" cy="19" r="5" fill="#28c840"/>
+<g font-family="monospace" font-size="12" fill="#48617c">
+<text x="20" y="53">01</text><text x="20" y="74">02</text><text x="20" y="95">03</text><text x="20" y="116">04</text><text x="20" y="137">05</text><text x="20" y="158">06</text><text x="20" y="179">07</text><text x="20" y="200">08</text><text x="20" y="221">09</text><text x="20" y="242">10</text><text x="20" y="263">11</text><text x="20" y="284">12</text><text x="20" y="305">13</text>
+</g>
+<g font-family="monospace" font-size="13" fill="#58a6ff">
+<text x="78" y="53">def</text><text x="108" y="53" fill="#4bd9ff"> summon_dragon</text><text x="246" y="53" fill="#d7e8ff">():</text>
+<text x="78" y="74" fill="#a78bfa">    code_art</text><text x="170" y="74" fill="#d7e8ff">= [</text>
+<text x="78" y="95" fill="#79c0ff">    "wings", "scale", "fire",</text>
+<text x="78" y="116" fill="#79c0ff">    "focus", "discipline"</text>
+</g>
+<g fill="none" stroke="url(#code)" stroke-width="1.2" opacity=".72" filter="url(#glow)">
+<use href="#wingL"/><use href="#wingR"/><use href="#spine"/>
+</g>
+<g fill="url(#code)" font-family="monospace" font-size="11" letter-spacing="1.4" filter="url(#glow)">
+<text><textPath href="#wingL" startOffset="0%">{}<> /\ 01 def() == [] {} <> /\ 01 def() == [] {} <> /\ 01 def() == [] {} <> /\ 01</textPath></text>
+<text><textPath href="#wingR" startOffset="0%">01 /\ <> {} [] == def() 01 /\ <> {} [] == def() 01 /\ <> {} [] == def() 01</textPath></text>
+<text><textPath href="#spine" startOffset="0%">def() { } == 01 /\ <> [] def() { } == 01</textPath></text>
+</g>
+<g font-family="monospace" font-size="12" fill="#4bd9ff">
+<text x="1000" y="72"># FORÇA</text><text x="1000" y="94"># DISCIPLINA</text><text x="1000" y="116"># FOCO</text><text x="1000" y="138"># EVOLUÇÃO</text><text x="1000" y="176" fill="#a78bfa">&lt;/&gt;</text>
+</g>
+<text x="78" y="302" font-family="monospace" font-size="13" fill="#a78bfa">return</text><text x="133" y="302" font-family="monospace" font-size="13" fill="#4bd9ff"> "always_building"</text>
+<text x="1120" y="310" text-anchor="end" font-family="monospace" font-size="10" fill="#48617c">JHONATASKILLS // CODE DRAGON</text>
+</svg>
