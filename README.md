@@ -25,6 +25,7 @@ Sou professor de programação para crianças e jovens e estou aprofundando meus
 <img src="https://img.shields.io/badge/Python-171717?style=flat-square&logo=python&logoColor=4BAEFF" alt="Python">
 <img src="https://img.shields.io/badge/Game%20Dev-171717?style=flat-square&logo=godotengine&logoColor=4BAEFF" alt="Game development">
 <img src="https://img.shields.io/badge/Software%20Engineering-171717?style=flat-square&logo=googlescholar&logoColor=4BAEFF" alt="Software Engineering">
+<img src="https://img.shields.io/badge/Linux-171717?style=flat-square&logo=linux&logoColor=4BAEFF" alt="Linux">
 
 **LOCATION**
 
