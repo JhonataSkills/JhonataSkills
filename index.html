@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#050505">
+<meta name="description" content="Portfólio de JhonataSkills — Python, desenvolvimento de jogos e educação em tecnologia.">
+<title>JhonataSkills — Developer Hub</title>
+<style>
+:root{color-scheme:dark;--bg:#050505;--panel:#0a0a0a;--panel2:#0e0e0e;--border:#252525;--text:#f1f1f1;--muted:#929292;--blue:#4baeff;--green:#36b66a}
+*{box-sizing:border-box}html{background:var(--bg);scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:inherit;text-decoration:none}a:hover{color:var(--blue)}.layout{max-width:1440px;margin:0 auto;padding:26px 34px 38px;display:grid;grid-template-columns:260px minmax(0,1fr);gap:26px}
+.profile{position:relative;min-width:0}.avatar{width:100%;aspect-ratio:1;border-radius:50%;object-fit:cover;border:3px solid #242424;padding:3px;background:#101010;display:block;margin-bottom:14px}.name{font-size:27px;line-height:1.15;font-weight:650;letter-spacing:-.8px;margin:0 0 3px}.handle{font-size:17px;color:var(--muted);margin-bottom:15px}.follow{display:flex;justify-content:center;align-items:center;gap:8px;border:1px solid #282828;background:#1a1a1a;padding:10px 12px;border-radius:8px;font-weight:600;margin:14px 0 16px}.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:22px}.chip{border:1px solid #303030;border-radius:20px;padding:3px 9px;color:#c2c2c2;font-size:11px}.profile-list{display:grid;gap:11px;color:#a9a9a9;margin:20px 0}.profile-list span{display:flex;gap:9px;align-items:flex-start}.profile-list b{font-weight:500;color:#e7e7e7}.mini-stats{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:#aaa;margin-top:22px}.mini-stats strong{color:#f2f2f2}.main{min-width:0}.banner{height:160px;border:1px solid #1b1b1b;border-radius:10px;overflow:hidden;background:#080a0d;margin-bottom:18px;position:relative}.banner img{width:100%;height:100%;object-fit:cover;display:block}.banner:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.15),transparent 60%,rgba(0,0,0,.15));pointer-events:none}
+.welcome{border:1px solid var(--border);background:linear-gradient(110deg,#0b0b0b,#080808);border-radius:9px;padding:19px 21px;display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:18px}.welcome h1{font-size:19px;font-weight:600;margin:0 0 4px;letter-spacing:-.3px}.welcome p{margin:0;color:var(--muted);font-size:13px}.powered{font-size:10px;color:#686868;white-space:nowrap}.powered b{color:var(--green)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:19px}.stat{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:14px 8px 12px;text-align:center;min-width:0}.stat .ico{font-size:17px;color:#888;display:block;margin-bottom:3px}.stat strong{display:block;font-size:25px;line-height:1.2;font-weight:650;letter-spacing:-.5px}.stat small{display:block;color:#929292;font-size:10px;letter-spacing:.7px;margin-top:2px}
+.panel{border:1px solid var(--border);border-radius:9px;background:var(--panel);padding:15px;margin-bottom:19px;min-width:0}.panel-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:10px}.panel h2{font-size:14px;font-weight:600;margin:0}.muted{color:var(--muted);font-size:11px}.contrib{width:100%;display:block;min-height:145px;object-fit:contain}.heatmap{display:grid;grid-template-columns:repeat(52,minmax(3px,1fr));gap:4px;overflow:hidden}.week{display:grid;gap:4px}.day{aspect-ratio:1;border-radius:3px;background:#161c19}.day.l1{background:#0d4428}.day.l2{background:#126638}.day.l3{background:#16894a}.day.l4{background:#26c363}.month-labels{display:flex;justify-content:space-between;color:#707070;font-size:9px;padding-left:28px;margin-bottom:5px}.weekdays{display:flex;flex-direction:column;justify-content:space-around;color:#777;font-size:9px;position:absolute;left:0;top:20px;bottom:27px}.contrib-wrap{position:relative;padding-left:28px}.contrib-foot{display:flex;justify-content:space-between;gap:10px;color:#777;font-size:10px;margin-top:12px}
+.twocol{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:19px}.twocol .panel{margin:0;min-height:160px}.tech-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:15px}.tech{font-size:11px;border:1px solid #333;border-radius:20px;padding:5px 10px;background:#151515;color:#d8d8d8}.tech i{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--blue);margin-right:6px}.language-area{display:flex;align-items:center;gap:20px}.donut{width:112px;height:112px;flex:0 0 112px;border-radius:50%;background:conic-gradient(#888 0 39%,#e6df45 39% 56%,#2b9b20 56% 69%,#347eb3 69% 78%,#b57a1e 78% 87%,#282828 87% 100%);position:relative}.donut:after{content:"5 áreas";position:absolute;inset:15px;border-radius:50%;background:#0a0a0a;display:grid;place-items:center;color:#777;font-size:11px}.legend{flex:1;display:grid;gap:6px;font-size:12px}.legend div{display:grid;grid-template-columns:10px 1fr auto;gap:7px;align-items:center}.dot{width:9px;height:9px;border-radius:50%}.legend small{color:#999;font-size:11px}
+.projects-head{display:flex;align-items:center;justify-content:space-between;margin:23px 0 12px}.projects-head h2{font-size:16px;margin:0;font-weight:600}.sort{border:1px solid var(--border);border-radius:7px;padding:7px 10px;color:#ccc;font-size:11px;background:#0a0a0a}.projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.project{border:1px solid var(--border);border-radius:8px;background:var(--panel);padding:15px 14px;min-height:114px;transition:border-color .15s,transform .15s}.project:hover{border-color:#3b6585;transform:translateY(-2px)}.project-top{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:9px}.repo-name{color:#3eae69;font-weight:600;font-size:13px}.lang{font-size:9px;color:#aaa;border-radius:12px;padding:3px 7px;background:#191919;border:1px solid #2b2b2b}.project p{margin:0 0 12px;color:#aaa;font-size:12px;line-height:1.5}.project-meta{display:flex;gap:14px;color:#777;font-size:10px}.footer{text-align:center;border-top:1px solid #1b1b1b;margin-top:26px;padding-top:18px;color:#777;font-size:11px}
+@media(min-width:1200px){.layout{padding-top:28px}.banner{height:174px}}
+@media(max-width:900px){.layout{grid-template-columns:210px minmax(0,1fr);gap:18px;padding:20px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.twocol{grid-template-columns:1fr}.banner{height:135px}.name{font-size:23px}}
+@media(max-width:620px){.layout{display:block;padding:14px}.profile{display:grid;grid-template-columns:86px 1fr;column-gap:14px;align-items:center;margin-bottom:20px}.avatar{width:86px;margin:0;grid-row:span 3}.name{font-size:21px}.handle{font-size:14px;margin:0}.follow{margin:8px 0 0;padding:7px;font-size:12px}.chips,.profile-list,.mini-stats{grid-column:1/-1}.chips{margin:13px 0 0}.profile-list{margin:12px 0}.mini-stats{margin-top:0}.banner{height:112px}.welcome{padding:14px;align-items:flex-start}.welcome h1{font-size:16px}.powered{display:none}.stat strong{font-size:22px}.panel{padding:12px}.heatmap{gap:2px}.projects{grid-template-columns:1fr}.project{min-height:0}.language-area{gap:12px}.donut{width:88px;height:88px;flex-basis:88px}.donut:after{inset:12px;font-size:10px}}
+</style>
+</head>
+<body>
+<div class="layout">
+<aside class="profile">
+<img class="avatar" src="https://github.com/JhonataSkills.png" alt="Avatar de JhonataSkills">
+<h1 class="name">JhonataSkills</h1>
+<div class="handle">@JhonataSkills</div>
+<a class="follow" href="https://github.com/JhonataSkills">◉ &nbsp; Follow on GitHub</a>
+<div class="chips"><span class="chip">Game Developer</span><span class="chip">Educator</span><span class="chip">Python</span><span class="chip">Game Design</span></div>
+<div class="profile-list">
+<span>▦ &nbsp; <b>Programação e jogos</b></span>
+<span>⌖ &nbsp; Teresina, Brasil</span>
+<span>▣ &nbsp; Construindo projetos educacionais</span>
+</div>
+<div class="mini-stats"><span>♟ <strong id="followers">—</strong> followers</span><span>·</span><span><strong id="following">—</strong> following</span></div>
+<div class="mini-stats"><span>◉ <strong id="public-repos">—</strong> public repositories</span></div>
+</aside>
+<main class="main">
+<div class="banner"><img src="dragon-banner.gif" alt="Banner panorâmico do dragão"></div>
+<section class="welcome">
+<div><h1>Welcome to JhonataSkills's Hub</h1><p>Explore meus projetos, experiências e contribuições em tecnologia.</p></div>
+<div class="powered">POWERED BY <b>CODE & CREATIVITY</b></div>
+</section>
+<section class="stats" aria-label="Estatísticas do GitHub">
+<div class="stat"><span class="ico">▱</span><strong id="repos">—</strong><small>TOTAL REPOS</small></div>
+<div class="stat"><span class="ico">☆</span><strong id="stars">—</strong><small>TOTAL STARS</small></div>
+<div class="stat"><span class="ico">♧</span><strong id="followers-card">—</strong><small>FOLLOWERS</small></div>
+<div class="stat"><span class="ico">◷</span><strong id="years">—</strong><small>YEARS ACTIVE</small></div>
+</section>
+<section class="panel">
+<div class="panel-head"><h2>Contributions</h2><span class="muted">GitHub activity</span></div>
+<img class="contrib" src="https://ghchart.rshah.org/168BFF/JhonataSkills" alt="Gráfico de contribuições do GitHub">
+<div class="contrib-foot"><span>Activity over the past year</span><span>github.com/JhonataSkills</span></div>
+</section>
+<div class="twocol">
+<section class="panel">
+<div class="panel-head"><h2>CORE TECHNOLOGIES</h2><span class="muted">TOOLKIT</span></div>
+<div class="tech-tags"><span class="tech"><i></i>Python</span><span class="tech"><i style="background:#e5dc45"></i>Pygame Zero</span><span class="tech"><i style="background:#2e9b35"></i>Scratch</span><span class="tech"><i style="background:#e67b45"></i>Git</span><span class="tech"><i style="background:#777"></i>GitHub</span><span class="tech"><i style="background:#347eb3"></i>VS Code</span><span class="tech"><i style="background:#aaa"></i>Linux</span></div>
+</section>
+<section class="panel">
+<div class="panel-head"><h2>LANGUAGES & REPOSITORIES</h2><span class="muted">PUBLIC DATA</span></div>
+<div class="language-area"><div class="donut"></div><div class="legend"><div><span class="dot" style="background:#888"></span><span>Python</span><small>—</small></div><div><span class="dot" style="background:#e6df45"></span><span>JavaScript</span><small>—</small></div><div><span class="dot" style="background:#2b9b20"></span><span>HTML / CSS</span><small>—</small></div><div><span class="dot" style="background:#347eb3"></span><span>Other</span><small>—</small></div></div></div>
+</section>
+</div>
+<div class="projects-head"><h2>♧ &nbsp; Notable Projects</h2><a class="sort" href="https://github.com/JhonataSkills?tab=repositories">All repositories ↗</a></div>
+<section class="projects">
+<a class="project" href="https://github.com/JhonataSkills?tab=repositories"><div class="project-top"><span class="repo-name">▱ &nbsp; alunar-game-lab</span><span class="lang">Python</span></div><p>Plataforma educacional para aprender programação criando jogos.</p><div class="project-meta"><span>☆ Em desenvolvimento</span><span>⌘ Python · Pygame Zero</span></div></a>
+<a class="project" href="https://github.com/JhonataSkills?tab=repositories"><div class="project-top"><span class="repo-name">▱ &nbsp; python-gameplay</span><span class="lang">Python</span></div><p>Protótipos de jogos 2D com movimento, colisões e sistemas de jogo.</p><div class="project-meta"><span>☆ Game dev</span><span>⌘ Python</span></div></a>
+<a class="project" href="https://github.com/JhonataSkills?tab=repositories"><div class="project-top"><span class="repo-name">▱ &nbsp; coding-classroom</span><span class="lang">Education</span></div><p>Desafios e materiais para ensinar lógica e programação de forma criativa.</p><div class="project-meta"><span>☆ Ensino</span><span>⌘ Scratch · Python</span></div></a>
+<a class="project" href="https://github.com/JhonataSkills?tab=repositories"><div class="project-top"><span class="repo-name">▱ &nbsp; experiments</span><span class="lang">Mixed</span></div><p>Experimentos, ferramentas e ideias em desenvolvimento.</p><div class="project-meta"><span>☆ Prototipagem</span><span>⌘ Aprendizado</span></div></a>
+</section>
+<footer class="footer">JHONATASKILLS · BUILDING, LEARNING, IMPROVING.</footer>
+</main>
+</div>
+<script>
+(async()=>{
+ try{
+  const r=await fetch('https://api.github.com/users/JhonataSkills');
+  if(!r.ok) return;
+  const u=await r.json();
+  const fmt=n=>Number(n||0).toLocaleString('en-US');
+  const put=(id,v)=>{const e=document.getElementById(id);if(e)e.textContent=v};
+  put('repos',fmt(u.public_repos));put('public-repos',fmt(u.public_repos));
+  put('followers',fmt(u.followers));put('followers-card',fmt(u.followers));put('following',fmt(u.following));
+  const years=Math.max(1,new Date().getFullYear()-new Date(u.created_at).getFullYear());
+  put('years',years);
+  const rr=await fetch('https://api.github.com/users/JhonataSkills/repos?per_page=100&sort=updated');
+  if(rr.ok){const repos=await rr.json();put('stars',fmt(repos.reduce((n,x)=>n+(x.stargazers_count||0),0)))}
+ }catch(e){}
+})();
+</script>
+</body>
+</html>
