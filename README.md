@@ -51,7 +51,7 @@ Um espaço para acompanhar meu aprendizado em programação, tecnologia e criaç
 <tr>
 <td align="center" width="25%">
 
-<img src="https://img.shields.io/badge/-111111?style=flat-square&logo=python&logoColor=58A6FF" alt="">
+<img src="https://cdn.simpleicons.org/python/58A6FF" width="26" height="26" alt="Python">
 
 **Python**
 
@@ -60,7 +60,7 @@ Um espaço para acompanhar meu aprendizado em programação, tecnologia e criaç
 </td>
 <td align="center" width="25%">
 
-<img src="https://img.shields.io/badge/-111111?style=flat-square&logo=godotengine&logoColor=58A6FF" alt="">
+<img src="https://cdn.simpleicons.org/godotengine/58A6FF" width="26" height="26" alt="Game Dev">
 
 **Game Dev**
 
@@ -69,7 +69,7 @@ Um espaço para acompanhar meu aprendizado em programação, tecnologia e criaç
 </td>
 <td align="center" width="25%">
 
-<img src="https://img.shields.io/badge/-111111?style=flat-square&logo=bookstack&logoColor=58A6FF" alt="">
+<img src="https://cdn.simpleicons.org/bookstack/58A6FF" width="26" height="26" alt="Ensino">
 
 **Ensino**
 
@@ -78,7 +78,7 @@ Um espaço para acompanhar meu aprendizado em programação, tecnologia e criaç
 </td>
 <td align="center" width="25%">
 
-<img src="https://img.shields.io/badge/-111111?style=flat-square&logo=github&logoColor=58A6FF" alt="">
+<img src="https://cdn.simpleicons.org/github/58A6FF" width="26" height="26" alt="GitHub">
 
 **GitHub**
 
