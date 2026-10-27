@@ -51,7 +51,7 @@ Um espaço para acompanhar meu aprendizado em programação, tecnologia e criaç
 <tr>
 <td align="center" width="25%">
 
-<img src="https://img.shields.io/badge/01-111111?style=flat-square&labelColor=111111" alt="">
+<img src="https://img.shields.io/badge/-111111?style=flat-square&logo=python&logoColor=58A6FF" alt="">
 
 **Python**
 
@@ -60,7 +60,7 @@ Um espaço para acompanhar meu aprendizado em programação, tecnologia e criaç
 </td>
 <td align="center" width="25%">
 
-<img src="https://img.shields.io/badge/02-111111?style=flat-square&labelColor=111111" alt="">
+<img src="https://img.shields.io/badge/-111111?style=flat-square&logo=godotengine&logoColor=58A6FF" alt="">
 
 **Game Dev**
 
@@ -69,7 +69,7 @@ Um espaço para acompanhar meu aprendizado em programação, tecnologia e criaç
 </td>
 <td align="center" width="25%">
 
-<img src="https://img.shields.io/badge/03-111111?style=flat-square&labelColor=111111" alt="">
+<img src="https://img.shields.io/badge/-111111?style=flat-square&logo=bookstack&logoColor=58A6FF" alt="">
 
 **Ensino**
 
@@ -78,7 +78,7 @@ Um espaço para acompanhar meu aprendizado em programação, tecnologia e criaç
 </td>
 <td align="center" width="25%">
 
-<img src="https://img.shields.io/badge/04-111111?style=flat-square&labelColor=111111" alt="">
+<img src="https://img.shields.io/badge/-111111?style=flat-square&logo=github&logoColor=58A6FF" alt="">
 
 **GitHub**
 
