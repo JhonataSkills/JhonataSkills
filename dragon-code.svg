@@ -1,52 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
-<defs>
- <linearGradient id="bone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0f6ff"/><stop offset=".5" stop-color="#8da9c8"/><stop offset="1" stop-color="#3c668d"/></linearGradient>
- <filter id="glow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-</defs>
-<rect width="1200" height="330" fill="#05080d"/>
-<rect x="1" y="1" width="1198" height="328" rx="6" fill="none" stroke="#1d2b3a"/>
-<g font-family="monospace" font-size="12" fill="#42617d">
-<text x="20" y="25">●</text><text x="40" y="25">●</text><text x="60" y="25">●</text>
-<text x="22" y="55">01</text><text x="22" y="77">02</text><text x="22" y="99">03</text><text x="22" y="121">04</text><text x="22" y="143">05</text><text x="22" y="165">06</text><text x="22" y="187">07</text><text x="22" y="209">08</text><text x="22" y="231">09</text><text x="22" y="253">10</text><text x="22" y="275">11</text><text x="22" y="297">12</text>
+<rect width="1200" height="330" fill="#05070b"/>
+<g font-family="monospace" font-size="12" fill="#31516b"><text x="24" y="30">01 import skeleton</text><text x="24" y="51">02 assemble_dragon()</text><text x="24" y="72">03 render_bones()</text><text x="24" y="93">04 breathe_fire()</text><text x="24" y="114">05 return legend</text><text x="940" y="48"># SKELETON CLASS</text><text x="940" y="69"># WINGSPAN: MAX</text><text x="940" y="90"># STATUS: ALIVE</text></g>
+<g stroke="#8cb6d9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<path d="M610 158 L500 65 L522 127 L410 78 L452 145 L330 124 L395 170 L290 185 L402 199 L465 225 L550 205 M610 158 L700 65 L678 127 L790 78 L748 145 L870 124 L805 170 L910 185 L798 199 L735 225 L650 205"/>
+<path d="M500 65 Q490 130 465 225 M410 78 Q422 143 402 199 M330 124 Q370 157 395 170 M700 65 Q710 130 735 225 M790 78 Q778 143 798 199 M870 124 Q830 157 805 170"/>
+<path d="M550 204 C590 186 638 186 680 202 M560 198 l-8 12 M573 194 l-7 15 M587 191 l-5 16 M601 190 l-2 17 M615 190 l2 17 M629 192 l5 15 M643 195 l7 14 M657 198 l8 12"/>
+<path d="M573 197 Q540 217 558 240 Q577 245 589 211 M587 193 Q560 222 581 251 Q597 248 601 210 M604 192 Q587 224 608 253 Q622 246 616 209 M622 193 Q615 220 637 245 Q651 234 631 207 M640 196 Q644 217 663 232 Q675 220 648 202"/>
+<path d="M673 202 Q704 185 727 169 L758 158 M746 156 L758 137 L766 151 L781 128 L785 150 L808 143 L800 160 L821 166 L799 176 L782 190 L771 176 L750 175 Z M758 137 L748 119 M781 128 L785 109 M800 160 L817 154 M771 176 L795 183 L809 177"/>
+<path d="M778 159 L791 159 M779 166 L791 166 M782 172 L789 172" stroke="#4bd9ff" stroke-width="1.5"/><circle cx="789" cy="155" r="2.5" fill="#4bd9ff" stroke="none"/>
+<path d="M575 211 L560 235 L541 241 L536 253 M560 235 L572 244 L571 256 M658 208 L674 231 L696 235 L705 248 M674 231 L668 246 L675 257"/>
+<path d="M552 205 C512 212 487 232 455 247 C425 261 399 254 393 238 C389 226 401 218 413 224 M535 211 l-4 10 M519 217 l-4 11 M503 225 l-4 11 M486 233 l-4 11 M469 241 l-4 11 M451 248 l-4 11 M433 252 l-2 11 M415 249 l-3 9"/>
 </g>
-<g font-family="monospace" font-size="13" fill="#58a6ff">
-<text x="72" y="55">def</text><text x="104" y="55" fill="#83eaff"> bone_dragon():</text>
-<text x="72" y="77" fill="#b49aff">    skeleton = assemble(</text>
-<text x="72" y="99" fill="#83eaff">        skull, ribs, wings, tail</text>
-<text x="72" y="121" fill="#b49aff">    )</text>
-</g>
-<!-- skeletal wings: long finger bones and connecting membranes represented as code-like linework -->
-<g fill="none" stroke="url(#bone)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
-<path d="M694 166 C645 111 590 71 511 61 C534 86 552 111 559 132 C493 91 425 91 356 111 C391 126 414 144 427 163 C365 148 312 164 266 194 C338 182 393 197 447 222 C494 244 552 226 601 197"/>
-<path d="M694 166 L511 61 L559 132 L356 111 L427 163 L266 194"/>
-<path d="M650 138 L587 90 M611 117 L559 132 M535 109 L473 106 M478 130 L427 163 M415 154 L356 111 M365 176 L314 179"/>
-<path d="M706 166 C755 111 810 71 889 61 C866 86 848 111 841 132 C907 91 975 91 1044 111 C1009 126 986 144 973 163 C1035 148 1088 164 1134 194 C1062 182 1007 197 953 222 C906 244 848 226 799 197"/>
-<path d="M706 166 L889 61 L841 132 L1044 111 L973 163 L1134 194"/>
-<path d="M750 138 L813 90 M789 117 L841 132 M865 109 L927 106 M922 130 L973 163 M985 154 L1044 111 M1035 176 L1086 179"/>
-<!-- spine and rib cage -->
-<path d="M438 190 C510 174 582 175 652 184 C710 190 756 185 799 169"/>
-<path d="M461 185 Q440 215 467 237 M483 181 Q463 220 493 245 M507 179 Q490 222 519 248 M532 178 Q518 222 545 249 M558 178 Q545 219 571 247 M584 179 Q573 216 598 243 M610 181 Q602 211 624 235 M636 183 Q630 207 649 225 M662 185 Q659 204 675 216"/>
-<!-- neck, skull, jaw, horns -->
-<path d="M786 174 C817 162 835 150 851 134 L878 129"/>
-<path d="M850 135 L865 113 L874 134 L894 121 L889 141 L915 143 L900 157 L919 166 L894 172 L883 190 L872 171 L850 174 Z"/>
-<path d="M865 113 L851 96 M894 121 L900 101 M875 171 L898 180 L917 174"/>
-<path d="M884 148 L897 149 M886 156 L899 157" stroke="#4bd9ff"/>
-<circle cx="886" cy="141" r="3" fill="#4bd9ff" stroke="none"/>
-<!-- fore and hind limbs -->
-<path d="M536 201 L520 226 L499 233 L492 249 M520 226 L538 240 L535 254"/>
-<path d="M690 195 L712 216 L737 220 L750 236 M712 216 L703 238 L709 251"/>
-<!-- long vertebrae tail curling left -->
-<path d="M440 191 C386 199 351 226 315 245 C276 266 240 260 230 238 C222 221 239 207 256 213"/>
-<path d="M420 196 L414 205 M399 202 L394 212 M378 210 L374 220 M357 220 L353 230 M336 231 L332 240 M315 242 L311 251 M294 251 L292 260 M272 255 L272 265 M250 250 L246 258"/>
-</g>
-<!-- small code fragments along the bones -->
-<g font-family="monospace" font-size="10" fill="#55cfff" opacity=".9">
-<text x="450" y="169">0x01 :: bone</text><text x="540" y="157">rib[]</text><text x="619" y="168">def spine()</text><text x="724" y="153">skull.node</text>
-<text x="320" y="135">[wing_left]</text><text x="920" y="135">[wing_right]</text>
-</g>
-<g font-family="monospace" font-size="13" fill="#4bd9ff">
-<text x="1000" y="54"># FORÇA</text><text x="1000" y="76"># DISCIPLINA</text><text x="1000" y="98"># FOCO</text><text x="1000" y="120"># EVOLUÇÃO</text>
-<text x="72" y="285" fill="#b49aff">return</text><text x="128" y="285"> "built_from_code"</text>
-<text x="1125" y="305" text-anchor="end" font-size="10" fill="#42617d">JHONATASKILLS // SKELETAL DRAGON</text>
-</g>
-</svg>
+<g fill="#9bdfff" font-family="monospace" font-size="10"><text x="435" y="152">wing.left[]</text><text x="685" y="143">wing.right[]</text><text x="590" y="177">spine.node</text><text x="812" y="198">skull.exe</text><text x="70" y="280">def summon_bone_dragon():</text><text x="70" y="300">    return ancient_power + code</text></g>
+<g fill="#4bd9ff" font-family="monospace" font-size="12"><text x="24" y="151">BUILD</text><text x="24" y="171">LEARN</text><text x="24" y="191">EVOLVE</text><text x="1000" y="250">JHONATASKILLS</text><text x="1000" y="270">SKELETAL DRAGON</text></g><rect x="1" y="1" width="1198" height="328" fill="none" stroke="#213448"/></svg>
