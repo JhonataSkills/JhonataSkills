@@ -1,52 +1,65 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
 <defs>
-  <linearGradient id="bone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e5f3ff"/><stop offset="1" stop-color="#78a9cf"/></linearGradient>
-  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#45e6c1"/><stop offset="1" stop-color="#58a6ff"/></linearGradient>
-  <radialGradient id="shade"><stop stop-color="#101e2b"/><stop offset="1" stop-color="#05070b"/></radialGradient>
+ <linearGradient id="bone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e8f7ff"/><stop offset="1" stop-color="#69a8d6"/></linearGradient>
+ <linearGradient id="mint" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#42f5c5"/><stop offset="1" stop-color="#58a6ff"/></linearGradient>
+ <radialGradient id="bg"><stop stop-color="#101d2b"/><stop offset="1" stop-color="#05070b"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>
+  .bone{fill:none;stroke:url(#bone);stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+  .thin{fill:none;stroke:#8db9d8;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  #body{animation:float 2.8s ease-in-out infinite}
+  #wingL{transform-box:fill-box;transform-origin:100% 100%;animation:flapL 1.05s ease-in-out infinite alternate}
+  #wingR{transform-box:fill-box;transform-origin:0% 100%;animation:flapR 1.05s ease-in-out infinite alternate}
+  #tail{transform-box:fill-box;transform-origin:0% 50%;animation:tail 1.8s ease-in-out infinite alternate}
+  #eye{animation:eye 1.5s ease-in-out infinite}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+  @keyframes flapL{from{transform:rotate(-4deg)}to{transform:rotate(13deg)}}
+  @keyframes flapR{from{transform:rotate(4deg)}to{transform:rotate(-13deg)}}
+  @keyframes tail{from{transform:rotate(-2deg)}to{transform:rotate(4deg)}}
+  @keyframes eye{0%,100%{opacity:.55}50%{opacity:1}}
+ </style>
 </defs>
-<rect width="1200" height="330" rx="14" fill="url(#shade)"/>
-<g fill="#52738d" opacity=".25" font-family="monospace" font-size="12">
-<text x="24" y="30">01  class AncientDragon:</text><text x="24" y="51">02      def awaken(self):</text><text x="24" y="72">03          raise LEGEND</text><text x="24" y="93">04  # bones remember</text>
-<text x="1000" y="40">SKELETON.py</text><text x="1000" y="60">STATUS: AWAKE</text><text x="1000" y="80">AGE: UNKNOWN</text>
+<rect width="1200" height="330" rx="14" fill="url(#bg)"/>
+<g fill="#41617b" opacity=".6" font-family="monospace" font-size="12">
+ <text x="25" y="30">01  class AncientDragon:</text><text x="25" y="51">02      def awaken(self):</text><text x="25" y="72">03          self.wings.open()</text><text x="25" y="93">04          return LEGEND</text>
+ <text x="1010" y="40">SKELETON.py</text><text x="1010" y="60">STATUS: AWAKE</text><text x="1010" y="80">AGE: UNKNOWN</text>
 </g>
-<g stroke="url(#bone)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
-<!-- far wing -->
-<path d="M585 170 Q540 119 488 48 Q510 105 473 81 Q495 124 454 112 Q493 155 529 185"/>
-<path d="M540 132 L488 48 M527 142 L473 81 M520 155 L454 112"/>
-<!-- near wing: long skeletal fingers and ribs -->
-<path d="M600 174 Q566 123 570 48 Q593 91 613 101 Q604 62 632 31 Q643 77 659 103 Q671 69 704 57 Q694 111 681 145 L649 185"/>
-<path d="M570 48 Q592 125 600 174 M613 101 Q623 143 620 177 M632 31 Q647 117 641 181 M659 103 Q668 140 660 185 M704 57 Q692 120 679 169"/>
-<!-- spine and curled tail -->
-<path d="M600 174 Q645 160 686 174 T765 184 T838 197 T903 190 T957 160 Q981 140 1004 155 Q1020 170 1003 184 Q990 194 977 181"/>
-<!-- vertebrae -->
-<g fill="#a8c8e1" stroke="#a8c8e1" stroke-width="1">
-<ellipse cx="607" cy="171" rx="7" ry="5"/><ellipse cx="626" cy="168" rx="7" ry="5"/><ellipse cx="645" cy="169" rx="7" ry="5"/><ellipse cx="664" cy="173" rx="7" ry="5"/><ellipse cx="683" cy="176" rx="7" ry="5"/><ellipse cx="702" cy="178" rx="7" ry="5"/><ellipse cx="721" cy="181" rx="7" ry="5"/><ellipse cx="740" cy="183" rx="7" ry="5"/><ellipse cx="759" cy="185" rx="7" ry="5"/><ellipse cx="778" cy="188" rx="7" ry="5"/><ellipse cx="797" cy="192" rx="7" ry="5"/><ellipse cx="816" cy="196" rx="7" ry="5"/><ellipse cx="835" cy="198" rx="7" ry="5"/><ellipse cx="854" cy="198" rx="7" ry="5"/><ellipse cx="873" cy="195" rx="7" ry="5"/><ellipse cx="892" cy="190" rx="7" ry="5"/><ellipse cx="911" cy="183" rx="6" ry="4"/><ellipse cx="930" cy="174" rx="6" ry="4"/>
+<g id="wingL" class="bone">
+ <path d="M622 170 Q572 119 530 43 Q554 95 515 76 Q538 113 489 103 Q525 144 575 184"/>
+ <path d="M530 43 Q574 111 622 170 M515 76 Q555 128 601 176 M489 103 Q535 145 581 183"/>
+ <path d="M555 132 Q540 162 575 184 M583 155 Q573 171 594 184"/>
 </g>
-<!-- rib cage -->
-<path d="M622 173 Q598 193 611 221 Q622 236 639 225 M641 173 Q618 199 633 233 Q642 244 655 229 M660 175 Q644 202 657 235 Q666 245 676 229 M679 177 Q668 202 681 230 Q690 239 700 224 M699 179 Q691 199 705 221 Q714 228 722 214 M719 182 Q715 198 730 214"/>
-<!-- shoulder and pelvis -->
-<path d="M594 166 L611 153 L633 163 L638 178 L622 190 L605 183 Z M762 183 L779 171 L797 185 L790 202 L773 205 L761 195 Z"/>
-<!-- legs -->
-<path d="M620 187 L600 218 L577 234 L559 230 M577 234 L583 253 L570 265 M784 198 L799 220 L826 229 L842 221 M826 229 L823 247 L838 257"/>
-<path d="M548 230 l11 -2 l-4 8 l-15 2 z M561 265 l12 -3 l-4 8 l-14 2 z M835 221 l11 -3 l4 7 l-12 4 z M832 256 l12 -2 l4 7 l-13 4 z"/>
-<!-- neck and skull -->
-<path d="M600 169 Q620 149 649 154 L674 164"/>
-<path d="M661 151 L674 135 L700 130 L717 139 L733 141 L748 151 L738 164 L711 169 L692 161 L675 167 Z"/>
-<!-- horns -->
-<path d="M680 137 Q665 120 650 118 Q664 133 668 147 M701 131 Q702 111 718 99 Q712 121 718 137"/>
-<!-- jaw, teeth, eye socket -->
-<path d="M684 158 L706 157 L720 164 L707 174 L688 169 Z M714 143 L730 148 L720 154"/>
-<path d="M693 159 l5 8 M702 158 l5 8 M711 158 l4 5" stroke-width="2"/>
+<g id="wingR" class="bone">
+ <path d="M654 170 Q702 113 735 42 Q714 96 752 75 Q735 116 780 101 Q751 146 701 185"/>
+ <path d="M735 42 Q694 112 654 170 M752 75 Q713 130 675 178 M780 101 Q735 151 701 185"/>
+ <path d="M711 132 Q724 163 701 185 M683 155 Q696 174 681 185"/>
 </g>
-<!-- eye and magical bone details -->
-<circle cx="709" cy="145" r="4.5" fill="#45e6c1"/>
-<circle cx="709" cy="145" r="9" fill="none" stroke="#45e6c1" stroke-opacity=".35"/>
-<g stroke="url(#glow)" stroke-width="1.5" fill="none" opacity=".9">
-<path d="M550 282 H925"/><path d="M550 277 V287 M925 277 V287"/>
+<g id="body">
+ <g class="bone">
+  <!-- spine and long tail -->
+  <path d="M604 176 Q646 157 682 169 Q722 178 754 184 Q794 192 830 185 Q866 180 895 158 Q917 143 932 158 Q945 171 931 181 Q920 189 911 178"/>
+  <!-- rib cage -->
+  <path d="M617 171 Q592 190 607 216 Q618 232 635 220 M634 167 Q612 193 628 228 Q638 241 650 224 M651 166 Q633 195 648 230 Q660 244 670 225 M668 168 Q654 195 669 226 Q680 239 690 220 M685 172 Q674 195 689 220 Q700 230 708 213 M703 176 Q695 195 710 215"/>
+  <!-- hips and limbs -->
+  <path d="M611 174 L592 164 L579 175 L586 189 L606 190 M690 175 L709 164 L727 176 L722 192 L702 195"/>
+  <path d="M603 188 L582 213 L557 222 L543 214 M582 213 L590 233 L577 246 M711 190 L733 211 L758 217 L770 207 M733 211 L728 231 L743 244"/>
+  <path d="M542 214 l12 -4 l-2 8 l-15 3 z M573 246 l12 -3 l-3 8 l-14 2 z M765 207 l11 -4 l3 8 l-12 3 z M739 244 l12 -3 l4 8 l-13 2 z"/>
+  <!-- neck -->
+  <path d="M600 174 Q615 151 646 155 L671 164"/>
+  <!-- skull silhouette, horns and jaw -->
+  <path d="M660 153 L674 135 L699 129 L716 137 L735 139 L750 150 L740 162 L716 168 L695 162 L677 169 Z"/>
+  <path d="M680 137 Q665 117 649 115 Q663 133 668 148 M701 132 Q701 111 719 96 Q712 122 720 138"/>
+  <path d="M684 158 L706 156 L721 163 L707 174 L687 169 Z M714 143 L730 148 L720 154"/>
+  <path d="M693 159 l5 8 M702 158 l5 8 M711 158 l4 5" stroke-width="2"/>
+ </g>
+ <g fill="#a9cce4" stroke="#a9cce4" stroke-width="1">
+  <ellipse cx="608" cy="173" rx="7" ry="5"/><ellipse cx="626" cy="168" rx="7" ry="5"/><ellipse cx="644" cy="168" rx="7" ry="5"/><ellipse cx="662" cy="169" rx="7" ry="5"/><ellipse cx="680" cy="173" rx="7" ry="5"/><ellipse cx="699" cy="177" rx="7" ry="5"/><ellipse cx="718" cy="180" rx="7" ry="5"/><ellipse cx="737" cy="183" rx="7" ry="5"/><ellipse cx="756" cy="185" rx="7" ry="5"/><ellipse cx="775" cy="188" rx="7" ry="5"/><ellipse cx="794" cy="190" rx="7" ry="5"/><ellipse cx="813" cy="189" rx="7" ry="5"/><ellipse cx="832" cy="185" rx="7" ry="5"/><ellipse cx="851" cy="181" rx="7" ry="5"/><ellipse cx="870" cy="174" rx="6" ry="4"/><ellipse cx="887" cy="163" rx="6" ry="4"/>
+ </g>
+ <circle id="eye" cx="709" cy="145" r="4.5" fill="#42f5c5" filter="url(#glow)"/>
+ <circle cx="709" cy="145" r="9" fill="none" stroke="#42f5c5" stroke-opacity=".5"/>
 </g>
-<g fill="#58a6ff" font-family="monospace" font-size="11">
-<text x="550" y="302">SPINE</text><text x="662" y="302">RIB CAGE</text><text x="790" y="302">ANCIENT BONES</text>
-</g>
-<text x="24" y="300" fill="#45e6c1" font-family="monospace" font-size="12"> &gt; summon_dragon()</text>
-<circle cx="1160" cy="290" r="4" fill="#45e6c1"/>
+<g stroke="url(#mint)" stroke-width="1.5" fill="none" opacity=".8"><path d="M530 276 H940"/><path d="M530 271 V281 M940 271 V281"/></g>
+<g fill="#58a6ff" font-family="monospace" font-size="11"><text x="530" y="296">SPINE</text><text x="648" y="296">RIB CAGE</text><text x="778" y="296">ANCIENT BONES</text></g>
+<text x="25" y="300" fill="#42f5c5" font-family="monospace" font-size="12">&gt; summon_dragon()</text>
+<circle cx="1160" cy="290" r="4" fill="#42f5c5"><animate attributeName="opacity" values=".25;1;.25" dur="1.3s" repeatCount="indefinite"/></circle>
 </svg>
