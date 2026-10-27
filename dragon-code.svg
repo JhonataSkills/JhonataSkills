@@ -1,15 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
-<rect width="1200" height="330" fill="#05070b"/>
-<g font-family="monospace" font-size="12" fill="#31516b"><text x="24" y="30">01 import skeleton</text><text x="24" y="51">02 assemble_dragon()</text><text x="24" y="72">03 render_bones()</text><text x="24" y="93">04 breathe_fire()</text><text x="24" y="114">05 return legend</text><text x="940" y="48"># SKELETON CLASS</text><text x="940" y="69"># WINGSPAN: MAX</text><text x="940" y="90"># STATUS: ALIVE</text></g>
-<g stroke="#8cb6d9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
-<path d="M610 158 L500 65 L522 127 L410 78 L452 145 L330 124 L395 170 L290 185 L402 199 L465 225 L550 205 M610 158 L700 65 L678 127 L790 78 L748 145 L870 124 L805 170 L910 185 L798 199 L735 225 L650 205"/>
-<path d="M500 65 Q490 130 465 225 M410 78 Q422 143 402 199 M330 124 Q370 157 395 170 M700 65 Q710 130 735 225 M790 78 Q778 143 798 199 M870 124 Q830 157 805 170"/>
-<path d="M550 204 C590 186 638 186 680 202 M560 198 l-8 12 M573 194 l-7 15 M587 191 l-5 16 M601 190 l-2 17 M615 190 l2 17 M629 192 l5 15 M643 195 l7 14 M657 198 l8 12"/>
-<path d="M573 197 Q540 217 558 240 Q577 245 589 211 M587 193 Q560 222 581 251 Q597 248 601 210 M604 192 Q587 224 608 253 Q622 246 616 209 M622 193 Q615 220 637 245 Q651 234 631 207 M640 196 Q644 217 663 232 Q675 220 648 202"/>
-<path d="M673 202 Q704 185 727 169 L758 158 M746 156 L758 137 L766 151 L781 128 L785 150 L808 143 L800 160 L821 166 L799 176 L782 190 L771 176 L750 175 Z M758 137 L748 119 M781 128 L785 109 M800 160 L817 154 M771 176 L795 183 L809 177"/>
-<path d="M778 159 L791 159 M779 166 L791 166 M782 172 L789 172" stroke="#4bd9ff" stroke-width="1.5"/><circle cx="789" cy="155" r="2.5" fill="#4bd9ff" stroke="none"/>
-<path d="M575 211 L560 235 L541 241 L536 253 M560 235 L572 244 L571 256 M658 208 L674 231 L696 235 L705 248 M674 231 L668 246 L675 257"/>
-<path d="M552 205 C512 212 487 232 455 247 C425 261 399 254 393 238 C389 226 401 218 413 224 M535 211 l-4 10 M519 217 l-4 11 M503 225 l-4 11 M486 233 l-4 11 M469 241 l-4 11 M451 248 l-4 11 M433 252 l-2 11 M415 249 l-3 9"/>
+<defs>
+  <linearGradient id="bone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e5f3ff"/><stop offset="1" stop-color="#78a9cf"/></linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#45e6c1"/><stop offset="1" stop-color="#58a6ff"/></linearGradient>
+  <radialGradient id="shade"><stop stop-color="#101e2b"/><stop offset="1" stop-color="#05070b"/></radialGradient>
+</defs>
+<rect width="1200" height="330" rx="14" fill="url(#shade)"/>
+<g fill="#52738d" opacity=".25" font-family="monospace" font-size="12">
+<text x="24" y="30">01  class AncientDragon:</text><text x="24" y="51">02      def awaken(self):</text><text x="24" y="72">03          raise LEGEND</text><text x="24" y="93">04  # bones remember</text>
+<text x="1000" y="40">SKELETON.py</text><text x="1000" y="60">STATUS: AWAKE</text><text x="1000" y="80">AGE: UNKNOWN</text>
 </g>
-<g fill="#9bdfff" font-family="monospace" font-size="10"><text x="435" y="152">wing.left[]</text><text x="685" y="143">wing.right[]</text><text x="590" y="177">spine.node</text><text x="812" y="198">skull.exe</text><text x="70" y="280">def summon_bone_dragon():</text><text x="70" y="300">    return ancient_power + code</text></g>
-<g fill="#4bd9ff" font-family="monospace" font-size="12"><text x="24" y="151">BUILD</text><text x="24" y="171">LEARN</text><text x="24" y="191">EVOLVE</text><text x="1000" y="250">JHONATASKILLS</text><text x="1000" y="270">SKELETAL DRAGON</text></g><rect x="1" y="1" width="1198" height="328" fill="none" stroke="#213448"/></svg>
+<g stroke="url(#bone)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<!-- far wing -->
+<path d="M585 170 Q540 119 488 48 Q510 105 473 81 Q495 124 454 112 Q493 155 529 185"/>
+<path d="M540 132 L488 48 M527 142 L473 81 M520 155 L454 112"/>
+<!-- near wing: long skeletal fingers and ribs -->
+<path d="M600 174 Q566 123 570 48 Q593 91 613 101 Q604 62 632 31 Q643 77 659 103 Q671 69 704 57 Q694 111 681 145 L649 185"/>
+<path d="M570 48 Q592 125 600 174 M613 101 Q623 143 620 177 M632 31 Q647 117 641 181 M659 103 Q668 140 660 185 M704 57 Q692 120 679 169"/>
+<!-- spine and curled tail -->
+<path d="M600 174 Q645 160 686 174 T765 184 T838 197 T903 190 T957 160 Q981 140 1004 155 Q1020 170 1003 184 Q990 194 977 181"/>
+<!-- vertebrae -->
+<g fill="#a8c8e1" stroke="#a8c8e1" stroke-width="1">
+<ellipse cx="607" cy="171" rx="7" ry="5"/><ellipse cx="626" cy="168" rx="7" ry="5"/><ellipse cx="645" cy="169" rx="7" ry="5"/><ellipse cx="664" cy="173" rx="7" ry="5"/><ellipse cx="683" cy="176" rx="7" ry="5"/><ellipse cx="702" cy="178" rx="7" ry="5"/><ellipse cx="721" cy="181" rx="7" ry="5"/><ellipse cx="740" cy="183" rx="7" ry="5"/><ellipse cx="759" cy="185" rx="7" ry="5"/><ellipse cx="778" cy="188" rx="7" ry="5"/><ellipse cx="797" cy="192" rx="7" ry="5"/><ellipse cx="816" cy="196" rx="7" ry="5"/><ellipse cx="835" cy="198" rx="7" ry="5"/><ellipse cx="854" cy="198" rx="7" ry="5"/><ellipse cx="873" cy="195" rx="7" ry="5"/><ellipse cx="892" cy="190" rx="7" ry="5"/><ellipse cx="911" cy="183" rx="6" ry="4"/><ellipse cx="930" cy="174" rx="6" ry="4"/>
+</g>
+<!-- rib cage -->
+<path d="M622 173 Q598 193 611 221 Q622 236 639 225 M641 173 Q618 199 633 233 Q642 244 655 229 M660 175 Q644 202 657 235 Q666 245 676 229 M679 177 Q668 202 681 230 Q690 239 700 224 M699 179 Q691 199 705 221 Q714 228 722 214 M719 182 Q715 198 730 214"/>
+<!-- shoulder and pelvis -->
+<path d="M594 166 L611 153 L633 163 L638 178 L622 190 L605 183 Z M762 183 L779 171 L797 185 L790 202 L773 205 L761 195 Z"/>
+<!-- legs -->
+<path d="M620 187 L600 218 L577 234 L559 230 M577 234 L583 253 L570 265 M784 198 L799 220 L826 229 L842 221 M826 229 L823 247 L838 257"/>
+<path d="M548 230 l11 -2 l-4 8 l-15 2 z M561 265 l12 -3 l-4 8 l-14 2 z M835 221 l11 -3 l4 7 l-12 4 z M832 256 l12 -2 l4 7 l-13 4 z"/>
+<!-- neck and skull -->
+<path d="M600 169 Q620 149 649 154 L674 164"/>
+<path d="M661 151 L674 135 L700 130 L717 139 L733 141 L748 151 L738 164 L711 169 L692 161 L675 167 Z"/>
+<!-- horns -->
+<path d="M680 137 Q665 120 650 118 Q664 133 668 147 M701 131 Q702 111 718 99 Q712 121 718 137"/>
+<!-- jaw, teeth, eye socket -->
+<path d="M684 158 L706 157 L720 164 L707 174 L688 169 Z M714 143 L730 148 L720 154"/>
+<path d="M693 159 l5 8 M702 158 l5 8 M711 158 l4 5" stroke-width="2"/>
+</g>
+<!-- eye and magical bone details -->
+<circle cx="709" cy="145" r="4.5" fill="#45e6c1"/>
+<circle cx="709" cy="145" r="9" fill="none" stroke="#45e6c1" stroke-opacity=".35"/>
+<g stroke="url(#glow)" stroke-width="1.5" fill="none" opacity=".9">
+<path d="M550 282 H925"/><path d="M550 277 V287 M925 277 V287"/>
+</g>
+<g fill="#58a6ff" font-family="monospace" font-size="11">
+<text x="550" y="302">SPINE</text><text x="662" y="302">RIB CAGE</text><text x="790" y="302">ANCIENT BONES</text>
+</g>
+<text x="24" y="300" fill="#45e6c1" font-family="monospace" font-size="12"> &gt; summon_dragon()</text>
+<circle cx="1160" cy="290" r="4" fill="#45e6c1"/>
+</svg>
