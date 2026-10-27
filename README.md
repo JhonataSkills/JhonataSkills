@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./dragon-code.svg" alt="Dragão esquelético desenhado com código" width="100%" />
+<img src="./dragon-banner.gif" alt="Dragão esquelético desenhado com código" width="100%" />
 
 </div>
 
