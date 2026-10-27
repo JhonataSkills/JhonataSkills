@@ -105,7 +105,6 @@ Um espaço para acompanhar meu aprendizado em programação, tecnologia e criaç
 <h3>TECH STACK</h3>
 
 <img src="https://img.shields.io/badge/Python-20242B?style=flat-square&logo=python&logoColor=58A6FF" alt="Python">
-<img src="https://img.shields.io/badge/Scratch-20242B?style=flat-square&logo=scratch&logoColor=58A6FF" alt="Scratch">
 <img src="https://img.shields.io/badge/Pygame%20Zero-20242B?style=flat-square&logo=python&logoColor=58A6FF" alt="Pygame Zero">
 <img src="https://img.shields.io/badge/Git-20242B?style=flat-square&logo=git&logoColor=58A6FF" alt="Git">
 <img src="https://img.shields.io/badge/VS%20Code-20242B?style=flat-square&logo=visualstudiocode&logoColor=58A6FF" alt="VS Code">
