@@ -1,9 +1,3 @@
-<div align="center">
-
-<img src="./github-hands-banner.jpg" alt="Mãos apontando para o GitHub" width="760" />
-
-</div>
-
 <table>
 <tr>
 <td width="29%" valign="top">
