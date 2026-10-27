@@ -29,18 +29,19 @@ jobs:
 
           source = Path("dragon-code.svg").read_text()
           frames = []
-          for i in range(16):
-              phase = 2 * math.pi * i / 16
-              left = -12 * math.sin(phase)
-              right = 12 * math.sin(phase)
+          for i in range(36):
+              phase = 2 * math.pi * i / 36
+              left = -15 * math.sin(phase)
+              right = 15 * math.sin(phase)
               bob = 5 * math.sin(phase)
+              drift = 22 * math.sin(phase)
               svg = source
               svg = svg.replace('<g id="wingL" class="bone">', f'<g id="wingL" class="bone" transform="rotate({left:.2f} 622 170)">')
               svg = svg.replace('<g id="wingR" class="bone">', f'<g id="wingR" class="bone" transform="rotate({right:.2f} 654 170)">')
-              svg = svg.replace('<g id="body">', f'<g id="body" transform="translate(0 {bob:.2f})">')
+              svg = svg.replace('<g id="body">', f'<g id="body" transform="translate({drift:.2f} {bob:.2f})">')
               png = cairosvg.svg2png(bytestring=svg.encode(), output_width=900, output_height=248)
               frames.append(Image.open(io.BytesIO(png)).convert("P", palette=Image.Palette.ADAPTIVE, colors=128))
-          frames[0].save("dragon-banner.gif", save_all=True, append_images=frames[1:], duration=90, loop=0, optimize=True, disposal=2)
+          frames[0].save("dragon-banner.gif", save_all=True, append_images=frames[1:], duration=85, loop=0, optimize=True, disposal=2)
           PY
           python /tmp/render_dragon.py
       - name: Commit animated banner
