@@ -1,0 +1,10 @@
+# Como aplicar no GitHub
+
+1. Extraia o ZIP.
+2. Abra o repositório https://github.com/JhonataSkills/JhonataSkills
+3. Substitua o README.md pelo arquivo deste pacote.
+4. Envie a pasta `assets` junto com `dragon-banner.gif`.
+5. Faça commit das alterações.
+
+As estatísticas são carregadas por serviços externos e podem demorar um pouco para aparecer.
+O banner animado usa um movimento sutil em loop. Para alterar projetos ou tecnologias, edite o README.md.
