@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./Dragon.gif" alt="Dragão azul" width="100%" />
+<img src="./dragon-banner.gif" alt="Dragão animado" width="100%" />
 
 </div>
 
