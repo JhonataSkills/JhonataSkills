@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="dragon-banner.gif" alt="Dragão azul em um cenário escuro" width="100%" />
+<img src="dragon-banner.gif" alt="Banner do dragão" width="100%" />
 
 </div>
 
@@ -10,23 +10,27 @@
 
 <div align="center">
 
-<img src="https://github.com/JhonataSkills.png" width="170" alt="Avatar do GitHub de JhonataSkills" />
+<img src="https://github.com/JhonataSkills.png" width="180" alt="Avatar JhonataSkills">
 
 # JhonataSkills
 
-**Desenvolvedor · Game Dev**
+@JhonataSkills
 
-<a href="https://github.com/JhonataSkills"><img src="https://img.shields.io/badge/Follow-GitHub-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://github.com/JhonataSkills"><img src="https://img.shields.io/badge/◉%20Follow%20on%20GitHub-1b1b1b?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub"></a>
 
 </div>
 
 ---
 
-**ÁREAS DE INTERESSE**
+**PERFIL**
 
-<img src="https://img.shields.io/badge/Python-111923?style=flat-square&logo=python&logoColor=55B8FF" alt="Python">
-<img src="https://img.shields.io/badge/Game%20Dev-111923?style=flat-square&logo=godotengine&logoColor=55B8FF" alt="Game development">
-<img src="https://img.shields.io/badge/Educação-111923?style=flat-square&logo=scratch&logoColor=55B8FF" alt="Educação">
+Desenvolvedor e educador de tecnologia. Gosto de criar jogos, experimentar com código e ajudar crianças e jovens a aprender programação.
+
+**INTERESSES**
+
+<img src="https://img.shields.io/badge/Python-161616?style=flat-square&logo=python&logoColor=55B8FF" alt="Python">
+<img src="https://img.shields.io/badge/Game%20Dev-161616?style=flat-square&logo=godotengine&logoColor=55B8FF" alt="Game Dev">
+<img src="https://img.shields.io/badge/Educação-161616?style=flat-square&logo=scratch&logoColor=55B8FF" alt="Educação">
 
 **LOCALIZAÇÃO**
 
@@ -34,7 +38,7 @@ Teresina, Brasil
 
 **FOCO ATUAL**
 
-Construir ferramentas e experiências que ensinam programação através da criação de jogos.
+Alunar Game Lab · Jogos 2D · Educação em programação
 
 </td>
 <td width="73%" valign="top">
@@ -43,134 +47,135 @@ Construir ferramentas e experiências que ensinam programação através da cria
 <tr>
 <td colspan="4">
 
-### WELCOME TO JHONATASKILLS' HUB
+## Welcome to JhonataSkills' Hub
 
-Projetos, experimentos e ideias na interseção entre **programação, jogos e educação**.
+Explore meus projetos, estudos e experimentos em programação e desenvolvimento de jogos.
 
 </td>
 </tr>
 <tr>
 <td align="center" width="25%">
 
-<img src="https://img.shields.io/badge/01-PYTHON-111923?style=flat-square&labelColor=111923" alt="Python">
+<img src="https://img.shields.io/badge/●-111111?style=flat-square&labelColor=111111" alt="">
 
-**Python**
+### Python
 
-<sub>Linguagem principal</sub>
-
-</td>
-<td align="center" width="25%">
-
-<img src="https://img.shields.io/badge/02-GAMES-111923?style=flat-square&labelColor=111923" alt="Games">
-
-**Jogos 2D**
-
-<sub>Aprender construindo</sub>
+<sub>Foco principal</sub>
 
 </td>
 <td align="center" width="25%">
 
-<img src="https://img.shields.io/badge/03-TEACHING-111923?style=flat-square&labelColor=111923" alt="Teaching">
+<img src="https://img.shields.io/badge/◆-111111?style=flat-square&labelColor=111111" alt="">
 
-**Educação**
+### Game Dev
 
-<sub>Ensino criativo</sub>
+<sub>Jogos 2D</sub>
 
 </td>
 <td align="center" width="25%">
 
-<img src="https://img.shields.io/badge/04-ALUNAR-111923?style=flat-square&labelColor=111923" alt="Alunar">
+<img src="https://img.shields.io/badge/✦-111111?style=flat-square&labelColor=111111" alt="">
 
-**Alunar Lab**
+### Educação
 
-<sub>Em desenvolvimento</sub>
+<sub>Aprender criando</sub>
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://img.shields.io/badge/⌘-111111?style=flat-square&labelColor=111111" alt="">
+
+### Alunar
+
+<sub>Projeto autoral</sub>
 
 </td>
 </tr>
 </table>
 
-### CONTRIBUTION ACTIVITY
+<table>
+<tr>
+<td>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=JhonataSkills&bg_color=0A0A0A&color=D9E2EC&line=168BFF&point=55B8FF&area=true&area_color=10243A&hide_border=true&custom_title=Contribution%20Timeline" width="100%" alt="Atividade de contribuições no GitHub">
+### Contributions
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=JhonataSkills&bg_color=0b0b0b&color=aaaaaa&line=168BFF&point=55B8FF&area=true&area_color=10243A&hide_border=true&custom_title=Last%2052%20weeks%20of%20activity" width="100%" alt="Gráfico de contribuições">
+
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### CORE TECHNOLOGIES
+### Core Technologies
 
-<img src="https://skillicons.dev/icons?i=python,git,github,vscode,linux&theme=dark" alt="Python, Git, GitHub, VS Code e Linux">
-
-<br>
-
-<img src="https://img.shields.io/badge/Pygame%20Zero-111923?style=flat-square&logo=python&logoColor=55B8FF" alt="Pygame Zero">
-<img src="https://img.shields.io/badge/Scratch-111923?style=flat-square&logo=scratch&logoColor=55B8FF" alt="Scratch">
+<img src="https://img.shields.io/badge/Python-252525?style=flat-square&logo=python&logoColor=55B8FF" alt="Python">
+<img src="https://img.shields.io/badge/Pygame%20Zero-252525?style=flat-square&logo=python&logoColor=55B8FF" alt="Pygame Zero">
+<img src="https://img.shields.io/badge/Scratch-252525?style=flat-square&logo=scratch&logoColor=55B8FF" alt="Scratch">
+<img src="https://img.shields.io/badge/Git-252525?style=flat-square&logo=git&logoColor=55B8FF" alt="Git">
+<img src="https://img.shields.io/badge/GitHub-252525?style=flat-square&logo=github&logoColor=55B8FF" alt="GitHub">
+<img src="https://img.shields.io/badge/VS%20Code-252525?style=flat-square&logo=visualstudiocode&logoColor=55B8FF" alt="VS Code">
+<img src="https://img.shields.io/badge/Linux-252525?style=flat-square&logo=linux&logoColor=55B8FF" alt="Linux">
 
 </td>
 <td width="50%" valign="top">
 
-### GITHUB ANALYTICS
+### Languages & Stats
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JhonataSkills&layout=compact&hide_border=true&bg_color=0A0A0A&title_color=55B8FF&text_color=E3EAF2" width="100%" alt="Linguagens mais usadas">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JhonataSkills&layout=compact&hide_border=true&bg_color=0b0b0b&title_color=55B8FF&text_color=cccccc" width="100%" alt="Linguagens mais usadas">
 
-<img src="https://github-readme-stats.vercel.app/api?username=JhonataSkills&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=55B8FF&text_color=E3EAF2&icon_color=55B8FF&include_all_commits=true" width="100%" alt="Estatísticas do GitHub">
-
-</td>
-</tr>
-</table>
+<img src="https://github-readme-stats.vercel.app/api?username=JhonataSkills&show_icons=true&hide_border=true&bg_color=0b0b0b&title_color=55B8FF&text_color=cccccc&icon_color=55B8FF&include_all_commits=true" width="100%" alt="Estatísticas do GitHub">
 
 </td>
 </tr>
 </table>
 
-## <img src="https://img.shields.io/badge/★-NOTABLE%20PROJECTS-111923?style=for-the-badge&labelColor=0A0A0A" alt="Notable projects">
+</td>
+</tr>
+</table>
+
+## <img src="https://img.shields.io/badge/⌑%20NOTABLE%20PROJECTS-111111?style=for-the-badge&labelColor=111111" alt="Notable projects">
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/01-EDUCATION%20%2F%20GAME%20DEV-10243A?style=flat-square" alt="Projeto 1">
+**▱ &nbsp; ALUNAR GAME LAB**
 
-### Alunar Game Lab
-
-Uma plataforma educacional para aprender programação criando jogos, aproximando editor de código e visualização do jogo.
+Plataforma educacional para aprender programação criando jogos, com editor de código e visualização do jogo.
 
 <sub>PYTHON · PYGAME ZERO · EDUCAÇÃO</sub>
 
 </td>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/02-GAME%20SYSTEMS-10243A?style=flat-square" alt="Projeto 2">
+**▱ &nbsp; PYTHON GAMEPLAY**
 
-### Python Game Experiments
+Protótipos de jogos 2D com movimento, colisões, inimigos, vida e sistemas de interação.
 
-Protótipos e estudos de mecânicas 2D: movimento, colisões, inimigos, vida e interação.
-
-<sub>PYTHON · GAMEPLAY · GAME DESIGN</sub>
+<sub>PYTHON · GAME DEV</sub>
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/03-TEACHING-10243A?style=flat-square" alt="Projeto 3">
+**▱ &nbsp; CODING CLASSROOM**
 
-### Coding Classroom
-
-Atividades e desafios para crianças e jovens aprenderem lógica e programação na prática.
+Atividades e desafios para crianças e jovens aprenderem lógica e programação criando projetos.
 
 <sub>SCRATCH · PYTHON · ENSINO</sub>
 
 </td>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/04-LAB-10243A?style=flat-square" alt="Projeto 4">
+**▱ &nbsp; EXPERIMENTS**
 
-### Experiments & Tools
+Estudos, ferramentas e protótipos para testar ideias e desenvolver novas habilidades.
 
-Um espaço para testar ideias, criar ferramentas e transformar pequenos experimentos em projetos maiores.
-
-<sub>PROTOTYPING · TOOLS · LEARNING</sub>
+<sub>PROTOTYPING · LEARNING</sub>
 
 </td>
 </tr>
@@ -178,7 +183,7 @@ Um espaço para testar ideias, criar ferramentas e transformar pequenos experime
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/EXPLORE%20ALL%20REPOSITORIES-111923?style=for-the-badge&logo=github&logoColor=55B8FF)](https://github.com/JhonataSkills?tab=repositories)
+<a href="https://github.com/JhonataSkills?tab=repositories"><img src="https://img.shields.io/badge/VIEW%20ALL%20REPOSITORIES-171717?style=for-the-badge&logo=github&logoColor=55B8FF" alt="Ver todos os repositórios"></a>
 
 <sub>IDEIAS SÃO O COMEÇO. CONSTRUIR É O QUE FAZ A DIFERENÇA.</sub>
 
