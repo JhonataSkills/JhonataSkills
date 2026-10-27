@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./Dragon.gif" alt="Dragão animado" width="760" />
+<img src="./github-hands-banner.jpg" alt="Mãos apontando para o GitHub" width="760" />
 
 </div>
 
