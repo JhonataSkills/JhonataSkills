@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="dragon-banner.gif" alt="Dragão — JhonataSkills" width="100%" />
+<img src="dragon-code.svg" alt="Dragão desenhado com código — JhonataSkills" width="100%" />
 
 </div>
 
