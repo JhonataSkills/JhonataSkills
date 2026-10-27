@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="dragon-code.svg" alt="Dragão desenhado com código — JhonataSkills" width="100%" />
+<img src="https://raw.githubusercontent.com/JhonataSkills/JhonataSkills/main/dragon-code.svg" alt="Dragão desenhado com código — JhonataSkills" width="100%" />
 
 </div>
 
