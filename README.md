@@ -8,7 +8,10 @@
 
 <p align="left"><code>@JhonataSkills</code></p>
 
-<p align="center"><a href="https://github.com/JhonataSkills"><img src="https://img.shields.io/badge/Follow_on_GitHub-171717?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub"></a></p>
+<p align="center">
+  <a href="https://github.com/JhonataSkills"><img src="https://img.shields.io/badge/GitHub-171717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/jhonata-lima-711a4a377"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+</p>
 
 ---
 
