@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/3D_dragon_animation.gif" alt="Dragão esquelético animado" width="320" />
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/3D_dragon_animation.gif" alt="Dragão esquelético animado" width="320" />
 
 # `JHONATASKILLS.exe`
 
