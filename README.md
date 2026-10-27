@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./dragon-banner.gif" alt="Dragão esquelético desenhado com código" width="100%" />
+<a href="https://dragon-follows-you.netlify.app/" title="Abrir o dragão interativo"><img src="./dragon-banner.gif" alt="Dragão animado — clique para abrir a versão interativa" width="100%" /></a>
 
 </div>
 
