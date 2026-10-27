@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/dragon-banner.gif" alt="Dragão esquelético em um cenário tecnológico escuro" width="100%" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/3D_dragon_animation.gif" alt="Dragão esquelético animado" width="320" />
 
 # `JHONATASKILLS.exe`
 
@@ -24,7 +24,6 @@
 
 Sou apaixonado por tecnologia, desenvolvimento de jogos e pelo poder da educação. Aqui você encontra projetos, experimentos e ferramentas que estou construindo enquanto continuo aprendendo.
 
-- **Base:** Teresina, PI — Brasil
 - **Foco:** Python, jogos 2D e educação
 - **Status:** sempre aprendendo
 - **GitHub:** [@JhonataSkills](https://github.com/JhonataSkills)
