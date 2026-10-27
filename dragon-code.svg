@@ -1,35 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
-<rect width="1200" height="330" fill="#070a0f"/>
-<rect x="1" y="1" width="1198" height="328" rx="7" fill="none" stroke="#1b2a3a"/>
-<g font-family="monospace" font-size="13" fill="#4b7ca8">
-<text x="20" y="28">●</text><text x="42" y="28">●</text><text x="64" y="28">●</text>
-<text x="24" y="60">01</text><text x="24" y="82">02</text><text x="24" y="104">03</text><text x="24" y="126">04</text><text x="24" y="148">05</text><text x="24" y="170">06</text><text x="24" y="192">07</text><text x="24" y="214">08</text><text x="24" y="236">09</text><text x="24" y="258">10</text><text x="24" y="280">11</text><text x="24" y="302">12</text>
+<defs>
+ <linearGradient id="bone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0f6ff"/><stop offset=".5" stop-color="#8da9c8"/><stop offset="1" stop-color="#3c668d"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="330" fill="#05080d"/>
+<rect x="1" y="1" width="1198" height="328" rx="6" fill="none" stroke="#1d2b3a"/>
+<g font-family="monospace" font-size="12" fill="#42617d">
+<text x="20" y="25">●</text><text x="40" y="25">●</text><text x="60" y="25">●</text>
+<text x="22" y="55">01</text><text x="22" y="77">02</text><text x="22" y="99">03</text><text x="22" y="121">04</text><text x="22" y="143">05</text><text x="22" y="165">06</text><text x="22" y="187">07</text><text x="22" y="209">08</text><text x="22" y="231">09</text><text x="22" y="253">10</text><text x="22" y="275">11</text><text x="22" y="297">12</text>
 </g>
-<g font-family="monospace" font-size="14" fill="#58a6ff">
-<text x="76" y="60">def</text><text x="108" y="60" fill="#7ee7ff"> summon_dragon():</text>
-<text x="76" y="82" fill="#a78bfa">    code_art = [</text>
-<text x="76" y="104" fill="#7ee7ff">    "wings", "scales", "fire",</text>
-<text x="76" y="126" fill="#7ee7ff">    "focus", "discipline"</text>
+<g font-family="monospace" font-size="13" fill="#58a6ff">
+<text x="72" y="55">def</text><text x="104" y="55" fill="#83eaff"> bone_dragon():</text>
+<text x="72" y="77" fill="#b49aff">    skeleton = assemble(</text>
+<text x="72" y="99" fill="#83eaff">        skull, ribs, wings, tail</text>
+<text x="72" y="121" fill="#b49aff">    )</text>
 </g>
-<g font-family="monospace" font-size="17" font-weight="bold" fill="#4bd9ff">
-<text x="170" y="145">/\</text><text x="208" y="127">/\</text><text x="250" y="112">/\</text><text x="294" y="103">/\</text><text x="338" y="105">/\</text><text x="382" y="120">/\</text><text x="426" y="140">/\</text>
-<text x="600" y="72">^</text><text x="586" y="94">/\</text><text x="573" y="116">/\</text><text x="560" y="138">/\</text><text x="548" y="160">/\</text><text x="536" y="182">/\</text><text x="524" y="204">/\</text><text x="512" y="226">/\</text><text x="500" y="248">/\</text><text x="488" y="270">/\</text>
-<text x="1030" y="145">/\</text><text x="990" y="127">/\</text><text x="948" y="112">/\</text><text x="904" y="103">/\</text><text x="860" y="105">/\</text><text x="816" y="120">/\</text><text x="772" y="140">/\</text>
+<!-- skeletal wings: long finger bones and connecting membranes represented as code-like linework -->
+<g fill="none" stroke="url(#bone)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+<path d="M694 166 C645 111 590 71 511 61 C534 86 552 111 559 132 C493 91 425 91 356 111 C391 126 414 144 427 163 C365 148 312 164 266 194 C338 182 393 197 447 222 C494 244 552 226 601 197"/>
+<path d="M694 166 L511 61 L559 132 L356 111 L427 163 L266 194"/>
+<path d="M650 138 L587 90 M611 117 L559 132 M535 109 L473 106 M478 130 L427 163 M415 154 L356 111 M365 176 L314 179"/>
+<path d="M706 166 C755 111 810 71 889 61 C866 86 848 111 841 132 C907 91 975 91 1044 111 C1009 126 986 144 973 163 C1035 148 1088 164 1134 194 C1062 182 1007 197 953 222 C906 244 848 226 799 197"/>
+<path d="M706 166 L889 61 L841 132 L1044 111 L973 163 L1134 194"/>
+<path d="M750 138 L813 90 M789 117 L841 132 M865 109 L927 106 M922 130 L973 163 M985 154 L1044 111 M1035 176 L1086 179"/>
+<!-- spine and rib cage -->
+<path d="M438 190 C510 174 582 175 652 184 C710 190 756 185 799 169"/>
+<path d="M461 185 Q440 215 467 237 M483 181 Q463 220 493 245 M507 179 Q490 222 519 248 M532 178 Q518 222 545 249 M558 178 Q545 219 571 247 M584 179 Q573 216 598 243 M610 181 Q602 211 624 235 M636 183 Q630 207 649 225 M662 185 Q659 204 675 216"/>
+<!-- neck, skull, jaw, horns -->
+<path d="M786 174 C817 162 835 150 851 134 L878 129"/>
+<path d="M850 135 L865 113 L874 134 L894 121 L889 141 L915 143 L900 157 L919 166 L894 172 L883 190 L872 171 L850 174 Z"/>
+<path d="M865 113 L851 96 M894 121 L900 101 M875 171 L898 180 L917 174"/>
+<path d="M884 148 L897 149 M886 156 L899 157" stroke="#4bd9ff"/>
+<circle cx="886" cy="141" r="3" fill="#4bd9ff" stroke="none"/>
+<!-- fore and hind limbs -->
+<path d="M536 201 L520 226 L499 233 L492 249 M520 226 L538 240 L535 254"/>
+<path d="M690 195 L712 216 L737 220 L750 236 M712 216 L703 238 L709 251"/>
+<!-- long vertebrae tail curling left -->
+<path d="M440 191 C386 199 351 226 315 245 C276 266 240 260 230 238 C222 221 239 207 256 213"/>
+<path d="M420 196 L414 205 M399 202 L394 212 M378 210 L374 220 M357 220 L353 230 M336 231 L332 240 M315 242 L311 251 M294 251 L292 260 M272 255 L272 265 M250 250 L246 258"/>
 </g>
-<g font-family="monospace" font-size="14" fill="#79c0ff">
-<text x="175" y="164">{} <> [] == def() {} <> [] == def() {} <> [] ==</text>
-<text x="210" y="185">/\ 01 /\ 01 /\ 01 /\ 01 /\ 01 /\ 01 /\ 01</text>
-<text x="250" y="206">[] {} <> [] {} <> [] {} <> [] {} <> [] {} <> []</text>
-<text x="300" y="227">def() == 01 /\ <> {} def() == 01 /\ <> {}</text>
-<text x="350" y="248">{} <> [] == /\ {} <> [] == /\ {} <> [] ==</text>
-<text x="405" y="269">/\ <> {} [] == /\ <> {} [] == /\</text>
-</g>
-<g font-family="monospace" font-size="14" fill="#a78bfa">
-<text x="78" y="170"># BUILDING</text><text x="78" y="192"># LEARNING</text><text x="78" y="214"># IMPROVING</text><text x="78" y="236"># ALWAYS</text>
+<!-- small code fragments along the bones -->
+<g font-family="monospace" font-size="10" fill="#55cfff" opacity=".9">
+<text x="450" y="169">0x01 :: bone</text><text x="540" y="157">rib[]</text><text x="619" y="168">def spine()</text><text x="724" y="153">skull.node</text>
+<text x="320" y="135">[wing_left]</text><text x="920" y="135">[wing_right]</text>
 </g>
 <g font-family="monospace" font-size="13" fill="#4bd9ff">
-<text x="1010" y="80"># FORÇA</text><text x="1010" y="103"># DISCIPLINA</text><text x="1010" y="126"># FOCO</text><text x="1010" y="149"># EVOLUÇÃO</text><text x="1010" y="188">&lt;/&gt;</text>
+<text x="1000" y="54"># FORÇA</text><text x="1000" y="76"># DISCIPLINA</text><text x="1000" y="98"># FOCO</text><text x="1000" y="120"># EVOLUÇÃO</text>
+<text x="72" y="285" fill="#b49aff">return</text><text x="128" y="285"> "built_from_code"</text>
+<text x="1125" y="305" text-anchor="end" font-size="10" fill="#42617d">JHONATASKILLS // SKELETAL DRAGON</text>
 </g>
-<text x="76" y="302" font-family="monospace" font-size="14" fill="#a78bfa">return</text><text x="132" y="302" font-family="monospace" font-size="14" fill="#4bd9ff"> "always_building"</text>
-<text x="1170" y="310" text-anchor="end" font-family="monospace" font-size="10" fill="#4b7ca8">JHONATASKILLS // CODE DRAGON</text>
 </svg>
