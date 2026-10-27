@@ -2,7 +2,7 @@
 <tr>
 <td width="29%" valign="top">
 
-<img src="https://github.com/JhonataSkills.png" width="100%" alt="Foto de perfil" />
+<img src="./avatar-dragon.jpg" width="100%" alt="Avatar com dragão branco em fundo preto" />
 
 <h2 align="left">JhonataSkills</h2>
 
