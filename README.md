@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://dragon-follows-you.netlify.app/" title="Abrir o dragão interativo"><img src="./dragon-banner.gif" alt="Dragão animado — clique para abrir a versão interativa" width="100%" /></a>
+<img src="./Dragon.gif" alt="Dragão azul" width="100%" />
 
 </div>
 
