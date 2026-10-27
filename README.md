@@ -23,7 +23,6 @@ Sou professor de programação para crianças e jovens e estou aprofundando meus
 **INTERESSES**
 
 <img src="https://img.shields.io/badge/Python-171717?style=flat-square&logo=python&logoColor=4BAEFF" alt="Python">
-<img src="https://img.shields.io/badge/Scratch-171717?style=flat-square&logo=scratch&logoColor=4BAEFF" alt="Scratch">
 <img src="https://img.shields.io/badge/Game%20Dev-171717?style=flat-square&logo=godotengine&logoColor=4BAEFF" alt="Game development">
 
 **LOCATION**
