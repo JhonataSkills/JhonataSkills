@@ -29,7 +29,7 @@ Sou professor de programação para crianças e jovens e estou aprofundando meus
 
 **LOCATION**
 
-Teresina, PI · Brasil
+Brasil
 
 </td>
 <td width="71%" valign="top">
