@@ -2,7 +2,7 @@
 <tr>
 <td width="29%" valign="top">
 
-<img src="./avatar-dragon.jpg" width="100%" alt="Avatar com dragão branco em fundo preto" />
+<img src="./Ka.webp" width="100%" alt="Avatar com dragão branco em fundo preto" />
 
 <h2 align="left">JhonataSkills</h2>
 
